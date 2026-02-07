@@ -138,6 +138,21 @@ echo $sunrise->getDateTime()->format('H:i') . " UTC";
 $distance = $sun->getDistanceToEarth(); // distance in km
 ```
 
+### Twilight
+
+Determine the current twilight phase at the observer's location:
+
+```php
+$twilight = $sun->getTwilight($location);
+
+// Constants:
+// Sun::TWILIGHT_DAY          — sun above horizon
+// Sun::TWILIGHT_CIVIL        — sun 0° to -6°
+// Sun::TWILIGHT_NAUTICAL     — sun -6° to -12°
+// Sun::TWILIGHT_ASTRONOMICAL — sun -12° to -18°
+// Sun::TWILIGHT_NIGHT        — sun below -18°
+```
+
 ---
 
 ## Moon
@@ -500,6 +515,8 @@ $GMST = TimeCalc::getGreenwichMeanSiderealTime($T);
 | `createFromString(string $dateString)` | `self` | Create from date string |
 | `createFromCurrentTime()` | `self` | Create for current time |
 | `createFromJulianDay(float $JD)` | `self` | Create from Julian Day |
+| `createFromJulianCenturiesJ2000(float $T)` | `self` | Create from Julian centuries |
+| `createFromDateTime(DateTime $dt)` | `self` | Create from PHP DateTime |
 | `createFromDayOfYear(int $year, float $doy)` | `self` | Create from day of year |
 | `getJulianDay()` | `float` | Julian Day number |
 | `getJulianCenturiesFromJ2000()` | `float` | Julian centuries since J2000.0 |
@@ -521,6 +538,7 @@ $GMST = TimeCalc::getGreenwichMeanSiderealTime($T);
 | `getSunset(Location $loc)` | `TimeOfInterest` | Sunset time |
 | `getUpperCulmination(Location $loc)` | `TimeOfInterest` | Solar noon |
 | `getDistanceToEarth()` | `float` | Distance in km |
+| `getTwilight(Location $loc)` | `int` | Twilight phase constant |
 
 ### `Moon`
 
@@ -551,6 +569,8 @@ $GMST = TimeCalc::getGreenwichMeanSiderealTime($T);
 | `getRise(Location $loc)` | `TimeOfInterest` | Rise time |
 | `getSet(Location $loc)` | `TimeOfInterest` | Set time |
 | `getUpperCulmination(Location $loc)` | `TimeOfInterest` | Transit time |
+| `getDistanceToEarthInAu()` | `float` | Distance in AU |
+| `getDistanceToEarthInKm()` | `float` | Distance in km |
 
 ### `SolarEclipse`
 
