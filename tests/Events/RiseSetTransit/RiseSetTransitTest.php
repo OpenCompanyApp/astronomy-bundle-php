@@ -1,19 +1,19 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Tests\Events\RiseSetTransit;
+namespace OpenCompany\AstronomyBundle\Tests\Events\RiseSetTransit;
 
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Planets\Jupiter;
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Planets\Mars;
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Planets\Mercury;
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Planets\Neptune;
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Planets\Saturn;
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Planets\Uranus;
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Planets\Venus;
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Sun;
-use Andrmoel\AstronomyBundle\Events\RiseSetTransit\RiseSetTransit;
-use Andrmoel\AstronomyBundle\Location;
-use Andrmoel\AstronomyBundle\Tests\Traits\InvokeTrait;
-use Andrmoel\AstronomyBundle\TimeOfInterest;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Planets\Jupiter;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Planets\Mars;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Planets\Mercury;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Planets\Neptune;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Planets\Saturn;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Planets\Uranus;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Planets\Venus;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Sun;
+use OpenCompany\AstronomyBundle\Events\RiseSetTransit\RiseSetTransit;
+use OpenCompany\AstronomyBundle\Location;
+use OpenCompany\AstronomyBundle\Tests\Traits\InvokeTrait;
+use OpenCompany\AstronomyBundle\TimeOfInterest;
 use DateTime;
 use DateTimeZone;
 use PHPUnit\Framework\TestCase;

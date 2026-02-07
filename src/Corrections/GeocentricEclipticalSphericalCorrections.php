@@ -1,11 +1,11 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Corrections;
+namespace OpenCompany\AstronomyBundle\Corrections;
 
-use Andrmoel\AstronomyBundle\Calculations\EarthCalc;
-use Andrmoel\AstronomyBundle\Calculations\SunCalc;
-use Andrmoel\AstronomyBundle\Constants;
-use Andrmoel\AstronomyBundle\Coordinates\GeocentricEclipticalSphericalCoordinates;
+use OpenCompany\AstronomyBundle\Calculations\EarthCalc;
+use OpenCompany\AstronomyBundle\Calculations\SunCalc;
+use OpenCompany\AstronomyBundle\Constants;
+use OpenCompany\AstronomyBundle\Coordinates\GeocentricEclipticalSphericalCoordinates;
 
 class GeocentricEclipticalSphericalCorrections
 {

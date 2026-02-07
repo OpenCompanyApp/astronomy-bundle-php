@@ -1,9 +1,9 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Calculations;
+namespace OpenCompany\AstronomyBundle\Calculations;
 
-use Andrmoel\AstronomyBundle\Entities\Time;
-use Andrmoel\AstronomyBundle\Utils\AngleUtil;
+use OpenCompany\AstronomyBundle\Entities\Time;
+use OpenCompany\AstronomyBundle\Utils\AngleUtil;
 
 class TimeCalc
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Coordinates;
+namespace OpenCompany\AstronomyBundle\Coordinates;
 
-use Andrmoel\AstronomyBundle\Utils\AngleUtil;
+use OpenCompany\AstronomyBundle\Utils\AngleUtil;
 
 abstract class AbstractEclipticalSphericalCoordinates
 {

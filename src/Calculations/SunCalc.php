@@ -1,10 +1,10 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Calculations;
+namespace OpenCompany\AstronomyBundle\Calculations;
 
-use Andrmoel\AstronomyBundle\CalculationCache;
-use Andrmoel\AstronomyBundle\Utils\AngleUtil;
-use Andrmoel\AstronomyBundle\Utils\DistanceUtil;
+use OpenCompany\AstronomyBundle\CalculationCache;
+use OpenCompany\AstronomyBundle\Utils\AngleUtil;
+use OpenCompany\AstronomyBundle\Utils\DistanceUtil;
 
 class SunCalc
 {

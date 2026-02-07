@@ -1,8 +1,8 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Parsers;
+namespace OpenCompany\AstronomyBundle\Parsers;
 
-use Andrmoel\AstronomyBundle\Events\SolarEclipse\BesselianElements;
+use OpenCompany\AstronomyBundle\Events\SolarEclipse\BesselianElements;
 
 class BesselianElementsParser extends AbstractParser
 {

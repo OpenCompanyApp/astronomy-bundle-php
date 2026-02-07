@@ -1,8 +1,8 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Tests\Utils;
+namespace OpenCompany\AstronomyBundle\Tests\Utils;
 
-use Andrmoel\AstronomyBundle\Utils\DistanceUtil;
+use OpenCompany\AstronomyBundle\Utils\DistanceUtil;
 use PHPUnit\Framework\TestCase;
 
 class DistanceUtilTest extends TestCase

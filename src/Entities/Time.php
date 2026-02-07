@@ -1,6 +1,6 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Entities;
+namespace OpenCompany\AstronomyBundle\Entities;
 
 class Time
 {

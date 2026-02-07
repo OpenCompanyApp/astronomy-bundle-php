@@ -1,8 +1,8 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Tests;
+namespace OpenCompany\AstronomyBundle\Tests;
 
-use Andrmoel\AstronomyBundle\CalculationCache;
+use OpenCompany\AstronomyBundle\CalculationCache;
 use PHPUnit\Framework\TestCase;
 
 class CalculationCacheTest extends TestCase

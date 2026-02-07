@@ -1,8 +1,8 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Tests\Utils;
+namespace OpenCompany\AstronomyBundle\Tests\Utils;
 
-use Andrmoel\AstronomyBundle\Utils\AngleUtil;
+use OpenCompany\AstronomyBundle\Utils\AngleUtil;
 use PHPUnit\Framework\TestCase;
 
 class AngleUtilTest extends TestCase

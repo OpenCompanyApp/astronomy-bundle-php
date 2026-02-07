@@ -1,8 +1,8 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Corrections;
+namespace OpenCompany\AstronomyBundle\Corrections;
 
-use Andrmoel\AstronomyBundle\Coordinates\LocalHorizontalCoordinates;
+use OpenCompany\AstronomyBundle\Coordinates\LocalHorizontalCoordinates;
 
 class LocalHorizontalCorrections
 {

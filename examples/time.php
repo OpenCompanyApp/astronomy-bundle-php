@@ -2,8 +2,8 @@
 
 include __DIR__ . '/../vendor/autoload.php';
 
-use Andrmoel\AstronomyBundle\TimeOfInterest;
-use Andrmoel\AstronomyBundle\Utils\AngleUtil;
+use OpenCompany\AstronomyBundle\TimeOfInterest;
+use OpenCompany\AstronomyBundle\Utils\AngleUtil;
 
 date_default_timezone_set('UTC');
 

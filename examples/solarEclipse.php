@@ -2,9 +2,9 @@
 
 include __DIR__ . '/../vendor/autoload.php';
 
-use Andrmoel\AstronomyBundle\Events\SolarEclipse\SolarEclipse;
-use Andrmoel\AstronomyBundle\Location;
-use Andrmoel\AstronomyBundle\TimeOfInterest;
+use OpenCompany\AstronomyBundle\Events\SolarEclipse\SolarEclipse;
+use OpenCompany\AstronomyBundle\Location;
+use OpenCompany\AstronomyBundle\TimeOfInterest;
 
 date_default_timezone_set('UTC');
 

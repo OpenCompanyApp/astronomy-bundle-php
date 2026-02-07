@@ -1,8 +1,8 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Calculations;
+namespace OpenCompany\AstronomyBundle\Calculations;
 
-use Andrmoel\AstronomyBundle\Calculations\VSOP87\VSOP87Interface;
+use OpenCompany\AstronomyBundle\Calculations\VSOP87\VSOP87Interface;
 
 class VSOP87Calc
 {

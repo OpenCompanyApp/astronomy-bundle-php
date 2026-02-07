@@ -1,6 +1,6 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Events\LunarEclipse;
+namespace OpenCompany\AstronomyBundle\Events\LunarEclipse;
 
 class LunarEclipseCircumstances
 {

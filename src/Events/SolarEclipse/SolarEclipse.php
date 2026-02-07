@@ -1,12 +1,12 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Events\SolarEclipse;
+namespace OpenCompany\AstronomyBundle\Events\SolarEclipse;
 
-use Andrmoel\AstronomyBundle\Location;
-use Andrmoel\AstronomyBundle\Parsers\BesselianElementsParser;
-use Andrmoel\AstronomyBundle\Parsers\ParserFactory;
-use Andrmoel\AstronomyBundle\TimeOfInterest;
-use Andrmoel\AstronomyBundle\Utils\GeneralUtil;
+use OpenCompany\AstronomyBundle\Location;
+use OpenCompany\AstronomyBundle\Parsers\BesselianElementsParser;
+use OpenCompany\AstronomyBundle\Parsers\ParserFactory;
+use OpenCompany\AstronomyBundle\TimeOfInterest;
+use OpenCompany\AstronomyBundle\Utils\GeneralUtil;
 
 class SolarEclipse
 {

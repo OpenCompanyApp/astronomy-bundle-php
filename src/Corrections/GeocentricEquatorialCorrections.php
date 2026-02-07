@@ -1,19 +1,19 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Corrections;
+namespace OpenCompany\AstronomyBundle\Corrections;
 
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Planets\Earth;
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Sun;
-use Andrmoel\AstronomyBundle\Calculations\EarthCalc;
-use Andrmoel\AstronomyBundle\Constants;
-use Andrmoel\AstronomyBundle\Coordinates\GeocentricEquatorialCoordinates;
-use Andrmoel\AstronomyBundle\Coordinates\GeocentricEquatorialSphericalCoordinates;
-use Andrmoel\AstronomyBundle\TimeOfInterest;
-use Andrmoel\AstronomyBundle\Utils\AngleUtil;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Planets\Earth;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Sun;
+use OpenCompany\AstronomyBundle\Calculations\EarthCalc;
+use OpenCompany\AstronomyBundle\Constants;
+use OpenCompany\AstronomyBundle\Coordinates\GeocentricEquatorialCoordinates;
+use OpenCompany\AstronomyBundle\Coordinates\GeocentricEquatorialSphericalCoordinates;
+use OpenCompany\AstronomyBundle\TimeOfInterest;
+use OpenCompany\AstronomyBundle\Utils\AngleUtil;
 
 /**
  * Class GeocentricEquatorialCorrections
- * @package Andrmoel\AstronomyBundle\Corrections
+ * @package OpenCompany\AstronomyBundle\Corrections
  * @deprecated do not use
  */
 class GeocentricEquatorialCorrections

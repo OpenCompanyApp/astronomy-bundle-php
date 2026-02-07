@@ -1,9 +1,9 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Events\LunarEclipse;
+namespace OpenCompany\AstronomyBundle\Events\LunarEclipse;
 
-use Andrmoel\AstronomyBundle\Calculations\TimeCalc;
-use Andrmoel\AstronomyBundle\TimeOfInterest;
+use OpenCompany\AstronomyBundle\Calculations\TimeCalc;
+use OpenCompany\AstronomyBundle\TimeOfInterest;
 
 /**
  * Lunar eclipse calculations based on Meeus "Astronomical Algorithms" Chapter 54.

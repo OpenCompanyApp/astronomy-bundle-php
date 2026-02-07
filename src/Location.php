@@ -1,8 +1,8 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle;
+namespace OpenCompany\AstronomyBundle;
 
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Planets\Earth;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Planets\Earth;
 
 class Location
 {

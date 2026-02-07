@@ -2,10 +2,10 @@
 
 include __DIR__ . '/../vendor/autoload.php';
 
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Sun;
-use Andrmoel\AstronomyBundle\Calculations\SunCalc;
-use Andrmoel\AstronomyBundle\Location;
-use Andrmoel\AstronomyBundle\Utils\AngleUtil;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Sun;
+use OpenCompany\AstronomyBundle\Calculations\SunCalc;
+use OpenCompany\AstronomyBundle\Location;
+use OpenCompany\AstronomyBundle\Utils\AngleUtil;
 
 date_default_timezone_set('UTC');
 

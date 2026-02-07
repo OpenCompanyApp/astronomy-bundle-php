@@ -1,6 +1,6 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Tests\Corrections;
+namespace OpenCompany\AstronomyBundle\Tests\Corrections;
 
 use PHPUnit\Framework\TestCase;
 

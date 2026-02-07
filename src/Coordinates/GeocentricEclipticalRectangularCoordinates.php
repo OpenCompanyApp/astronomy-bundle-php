@@ -1,9 +1,9 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Coordinates;
+namespace OpenCompany\AstronomyBundle\Coordinates;
 
-use Andrmoel\AstronomyBundle\Calculations\CoordinateTransformations;
-use Andrmoel\AstronomyBundle\Location;
+use OpenCompany\AstronomyBundle\Calculations\CoordinateTransformations;
+use OpenCompany\AstronomyBundle\Location;
 
 class GeocentricEclipticalRectangularCoordinates extends AbstractRectangularCoordinates
 {

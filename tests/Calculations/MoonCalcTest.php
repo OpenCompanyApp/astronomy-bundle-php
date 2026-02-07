@@ -1,8 +1,8 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Tests\Calculations;
+namespace OpenCompany\AstronomyBundle\Tests\Calculations;
 
-use Andrmoel\AstronomyBundle\Calculations\MoonCalc;
+use OpenCompany\AstronomyBundle\Calculations\MoonCalc;
 use PHPUnit\Framework\TestCase;
 
 class MoonCalcTest extends TestCase

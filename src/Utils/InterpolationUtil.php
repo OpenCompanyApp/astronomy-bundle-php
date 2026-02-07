@@ -1,6 +1,6 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Utils;
+namespace OpenCompany\AstronomyBundle\Utils;
 
 class InterpolationUtil
 {

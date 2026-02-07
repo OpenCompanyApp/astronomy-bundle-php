@@ -1,10 +1,10 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Tests\AstronomicalObjects;
+namespace OpenCompany\AstronomyBundle\Tests\AstronomicalObjects;
 
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Moon;
-use Andrmoel\AstronomyBundle\Location;
-use Andrmoel\AstronomyBundle\TimeOfInterest;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Moon;
+use OpenCompany\AstronomyBundle\Location;
+use OpenCompany\AstronomyBundle\TimeOfInterest;
 use PHPUnit\Framework\TestCase;
 
 class MoonTest extends TestCase

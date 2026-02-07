@@ -1,10 +1,10 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\AstronomicalObjects\Planets;
+namespace OpenCompany\AstronomyBundle\AstronomicalObjects\Planets;
 
-use Andrmoel\AstronomyBundle\Calculations\VSOP87\MarsRectangularVSOP87;
-use Andrmoel\AstronomyBundle\Calculations\VSOP87\MarsSphericalVSOP87;
-use Andrmoel\AstronomyBundle\TimeOfInterest;
+use OpenCompany\AstronomyBundle\Calculations\VSOP87\MarsRectangularVSOP87;
+use OpenCompany\AstronomyBundle\Calculations\VSOP87\MarsSphericalVSOP87;
+use OpenCompany\AstronomyBundle\TimeOfInterest;
 
 class Mars extends Planet
 {

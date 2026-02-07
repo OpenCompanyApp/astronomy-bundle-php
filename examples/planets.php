@@ -2,17 +2,17 @@
 
 include __DIR__ . '/../vendor/autoload.php';
 
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Planets\Jupiter;
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Planets\Mars;
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Planets\Mercury;
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Planets\Neptune;
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Planets\Planet;
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Planets\Saturn;
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Planets\Uranus;
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Planets\Venus;
-use Andrmoel\AstronomyBundle\Location;
-use Andrmoel\AstronomyBundle\TimeOfInterest;
-use Andrmoel\AstronomyBundle\Utils\AngleUtil;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Planets\Jupiter;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Planets\Mars;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Planets\Mercury;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Planets\Neptune;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Planets\Planet;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Planets\Saturn;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Planets\Uranus;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Planets\Venus;
+use OpenCompany\AstronomyBundle\Location;
+use OpenCompany\AstronomyBundle\TimeOfInterest;
+use OpenCompany\AstronomyBundle\Utils\AngleUtil;
 
 // Berlin
 $location = Location::create(52.524, 13.411);

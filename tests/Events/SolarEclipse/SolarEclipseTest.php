@@ -1,10 +1,10 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Tests\Eclipses;
+namespace OpenCompany\AstronomyBundle\Tests\Eclipses;
 
-use Andrmoel\AstronomyBundle\Events\SolarEclipse\SolarEclipse;
-use Andrmoel\AstronomyBundle\Location;
-use Andrmoel\AstronomyBundle\TimeOfInterest;
+use OpenCompany\AstronomyBundle\Events\SolarEclipse\SolarEclipse;
+use OpenCompany\AstronomyBundle\Location;
+use OpenCompany\AstronomyBundle\TimeOfInterest;
 use PHPUnit\Framework\TestCase;
 
 class SolarEclipseTest extends TestCase

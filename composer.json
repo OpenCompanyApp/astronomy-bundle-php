@@ -14,12 +14,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Andrmoel\\AstronomyBundle\\": "src/"
+            "OpenCompany\\AstronomyBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Andrmoel\\AstronomyBundle\\Tests\\": "tests/"
+            "OpenCompany\\AstronomyBundle\\Tests\\": "tests/"
         }
     },
     "require-dev": {

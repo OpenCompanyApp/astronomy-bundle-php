@@ -1,9 +1,9 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Tests\Events\LunarEclipse;
+namespace OpenCompany\AstronomyBundle\Tests\Events\LunarEclipse;
 
-use Andrmoel\AstronomyBundle\Events\LunarEclipse\LunarEclipse;
-use Andrmoel\AstronomyBundle\TimeOfInterest;
+use OpenCompany\AstronomyBundle\Events\LunarEclipse\LunarEclipse;
+use OpenCompany\AstronomyBundle\TimeOfInterest;
 use PHPUnit\Framework\TestCase;
 
 class LunarEclipseTest extends TestCase

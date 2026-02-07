@@ -1,9 +1,9 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Tests\Calculations;
+namespace OpenCompany\AstronomyBundle\Tests\Calculations;
 
-use Andrmoel\AstronomyBundle\Coordinates\GeocentricEclipticalRectangularCoordinates;
-use Andrmoel\AstronomyBundle\Location;
+use OpenCompany\AstronomyBundle\Coordinates\GeocentricEclipticalRectangularCoordinates;
+use OpenCompany\AstronomyBundle\Location;
 use PHPUnit\Framework\TestCase;
 
 class GeocentricEclipticalRectangularCoordinatesTest extends TestCase

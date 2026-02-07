@@ -1,15 +1,15 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\AstronomicalObjects\Planets;
+namespace OpenCompany\AstronomyBundle\AstronomicalObjects\Planets;
 
-use Andrmoel\AstronomyBundle\Coordinates\GeocentricEclipticalSphericalCoordinates;
-use Andrmoel\AstronomyBundle\Coordinates\GeocentricEquatorialRectangularCoordinates;
-use Andrmoel\AstronomyBundle\Coordinates\GeocentricEquatorialSphericalCoordinates;
-use Andrmoel\AstronomyBundle\Coordinates\HeliocentricEclipticalRectangularCoordinates;
-use Andrmoel\AstronomyBundle\Coordinates\HeliocentricEclipticalSphericalCoordinates;
-use Andrmoel\AstronomyBundle\Coordinates\LocalHorizontalCoordinates;
-use Andrmoel\AstronomyBundle\Location;
-use Andrmoel\AstronomyBundle\TimeOfInterest;
+use OpenCompany\AstronomyBundle\Coordinates\GeocentricEclipticalSphericalCoordinates;
+use OpenCompany\AstronomyBundle\Coordinates\GeocentricEquatorialRectangularCoordinates;
+use OpenCompany\AstronomyBundle\Coordinates\GeocentricEquatorialSphericalCoordinates;
+use OpenCompany\AstronomyBundle\Coordinates\HeliocentricEclipticalRectangularCoordinates;
+use OpenCompany\AstronomyBundle\Coordinates\HeliocentricEclipticalSphericalCoordinates;
+use OpenCompany\AstronomyBundle\Coordinates\LocalHorizontalCoordinates;
+use OpenCompany\AstronomyBundle\Location;
+use OpenCompany\AstronomyBundle\TimeOfInterest;
 
 interface PlanetInterface
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Tests\Corrections;
+namespace OpenCompany\AstronomyBundle\Tests\Corrections;
 
-use Andrmoel\AstronomyBundle\Coordinates\LocalHorizontalCoordinates;
-use Andrmoel\AstronomyBundle\Corrections\LocalHorizontalCorrections;
+use OpenCompany\AstronomyBundle\Coordinates\LocalHorizontalCoordinates;
+use OpenCompany\AstronomyBundle\Corrections\LocalHorizontalCorrections;
 use PHPUnit\Framework\TestCase;
 
 class LocalHorizontalCorrectionsTest extends TestCase

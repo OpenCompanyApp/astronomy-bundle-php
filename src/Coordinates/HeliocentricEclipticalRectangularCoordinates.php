@@ -1,11 +1,11 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Coordinates;
+namespace OpenCompany\AstronomyBundle\Coordinates;
 
-use Andrmoel\AstronomyBundle\Calculations\CoordinateTransformations;
-use Andrmoel\AstronomyBundle\Calculations\VSOP87\EarthRectangularVSOP87;
-use Andrmoel\AstronomyBundle\Calculations\VSOP87Calc;
-use Andrmoel\AstronomyBundle\Location;
+use OpenCompany\AstronomyBundle\Calculations\CoordinateTransformations;
+use OpenCompany\AstronomyBundle\Calculations\VSOP87\EarthRectangularVSOP87;
+use OpenCompany\AstronomyBundle\Calculations\VSOP87Calc;
+use OpenCompany\AstronomyBundle\Location;
 
 class HeliocentricEclipticalRectangularCoordinates extends AbstractRectangularCoordinates
 {

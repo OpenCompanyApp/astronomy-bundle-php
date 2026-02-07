@@ -1,10 +1,10 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle;
+namespace OpenCompany\AstronomyBundle;
 
-use Andrmoel\AstronomyBundle\Calculations\TimeCalc;
-use Andrmoel\AstronomyBundle\Entities\Time;
-use Andrmoel\AstronomyBundle\Utils\AngleUtil;
+use OpenCompany\AstronomyBundle\Calculations\TimeCalc;
+use OpenCompany\AstronomyBundle\Entities\Time;
+use OpenCompany\AstronomyBundle\Utils\AngleUtil;
 
 class TimeOfInterest
 {

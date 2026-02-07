@@ -1,9 +1,9 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Tests\AstronomicalObjects\Planets;
+namespace OpenCompany\AstronomyBundle\Tests\AstronomicalObjects\Planets;
 
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Planets\Venus;
-use Andrmoel\AstronomyBundle\TimeOfInterest;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Planets\Venus;
+use OpenCompany\AstronomyBundle\TimeOfInterest;
 use PHPUnit\Framework\TestCase;
 
 class VenusTest extends TestCase

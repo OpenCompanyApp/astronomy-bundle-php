@@ -1,17 +1,17 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Events\RiseSetTransit;
+namespace OpenCompany\AstronomyBundle\Events\RiseSetTransit;
 
-use Andrmoel\AstronomyBundle\AstronomicalObjects\AstronomicalObjectInterface;
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Moon;
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Sun;
-use Andrmoel\AstronomyBundle\Calculations\MoonCalc;
-use Andrmoel\AstronomyBundle\Calculations\TimeCalc;
-use Andrmoel\AstronomyBundle\Coordinates\GeocentricEquatorialSphericalCoordinates;
-use Andrmoel\AstronomyBundle\Location;
-use Andrmoel\AstronomyBundle\TimeOfInterest;
-use Andrmoel\AstronomyBundle\Utils\AngleUtil;
-use Andrmoel\AstronomyBundle\Utils\InterpolationUtil;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\AstronomicalObjectInterface;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Moon;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Sun;
+use OpenCompany\AstronomyBundle\Calculations\MoonCalc;
+use OpenCompany\AstronomyBundle\Calculations\TimeCalc;
+use OpenCompany\AstronomyBundle\Coordinates\GeocentricEquatorialSphericalCoordinates;
+use OpenCompany\AstronomyBundle\Location;
+use OpenCompany\AstronomyBundle\TimeOfInterest;
+use OpenCompany\AstronomyBundle\Utils\AngleUtil;
+use OpenCompany\AstronomyBundle\Utils\InterpolationUtil;
 
 class RiseSetTransit
 {

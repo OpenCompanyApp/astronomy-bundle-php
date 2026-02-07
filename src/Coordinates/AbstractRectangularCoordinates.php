@@ -1,6 +1,6 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Coordinates;
+namespace OpenCompany\AstronomyBundle\Coordinates;
 
 abstract class AbstractRectangularCoordinates
 {

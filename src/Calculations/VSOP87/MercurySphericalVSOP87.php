@@ -1,6 +1,6 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Calculations\VSOP87;
+namespace OpenCompany\AstronomyBundle\Calculations\VSOP87;
 
 class MercurySphericalVSOP87 implements VSOP87Interface
 {

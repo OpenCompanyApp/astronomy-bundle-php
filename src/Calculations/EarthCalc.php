@@ -1,11 +1,11 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Calculations;
+namespace OpenCompany\AstronomyBundle\Calculations;
 
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Planets\Earth;
-use Andrmoel\AstronomyBundle\CalculationCache;
-use Andrmoel\AstronomyBundle\Location;
-use Andrmoel\AstronomyBundle\Utils\AngleUtil;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Planets\Earth;
+use OpenCompany\AstronomyBundle\CalculationCache;
+use OpenCompany\AstronomyBundle\Location;
+use OpenCompany\AstronomyBundle\Utils\AngleUtil;
 
 class EarthCalc implements EarthCalcInterface
 {

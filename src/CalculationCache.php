@@ -1,6 +1,6 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle;
+namespace OpenCompany\AstronomyBundle;
 
 class CalculationCache
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Calculations;
+namespace OpenCompany\AstronomyBundle\Calculations;
 
-use Andrmoel\AstronomyBundle\Utils\AngleUtil;
+use OpenCompany\AstronomyBundle\Utils\AngleUtil;
 
 class CoordinateTransformations
 {

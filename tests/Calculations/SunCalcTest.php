@@ -1,8 +1,8 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Tests\Calculations;
+namespace OpenCompany\AstronomyBundle\Tests\Calculations;
 
-use Andrmoel\AstronomyBundle\Calculations\SunCalc;
+use OpenCompany\AstronomyBundle\Calculations\SunCalc;
 use PHPUnit\Framework\TestCase;
 
 class SunCalcTest extends TestCase

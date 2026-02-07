@@ -1,9 +1,9 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Calculations;
+namespace OpenCompany\AstronomyBundle\Calculations;
 
-use Andrmoel\AstronomyBundle\CalculationCache;
-use Andrmoel\AstronomyBundle\Utils\AngleUtil;
+use OpenCompany\AstronomyBundle\CalculationCache;
+use OpenCompany\AstronomyBundle\Utils\AngleUtil;
 
 class MoonCalc implements MoonCalcInterface
 {

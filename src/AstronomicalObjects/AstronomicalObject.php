@@ -1,8 +1,8 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\AstronomicalObjects;
+namespace OpenCompany\AstronomyBundle\AstronomicalObjects;
 
-use Andrmoel\AstronomyBundle\TimeOfInterest;
+use OpenCompany\AstronomyBundle\TimeOfInterest;
 
 abstract class AstronomicalObject
 {

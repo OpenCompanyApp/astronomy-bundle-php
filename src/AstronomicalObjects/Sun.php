@@ -1,19 +1,19 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\AstronomicalObjects;
+namespace OpenCompany\AstronomyBundle\AstronomicalObjects;
 
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Planets\Earth;
-use Andrmoel\AstronomyBundle\Calculations\EarthCalc;
-use Andrmoel\AstronomyBundle\Calculations\SunCalc;
-use Andrmoel\AstronomyBundle\Coordinates\GeocentricEclipticalSphericalCoordinates;
-use Andrmoel\AstronomyBundle\Coordinates\GeocentricEquatorialRectangularCoordinates;
-use Andrmoel\AstronomyBundle\Coordinates\GeocentricEquatorialSphericalCoordinates;
-use Andrmoel\AstronomyBundle\Coordinates\LocalHorizontalCoordinates;
-use Andrmoel\AstronomyBundle\Corrections\LocalHorizontalCorrections;
-use Andrmoel\AstronomyBundle\Events\RiseSetTransit\RiseSetTransit;
-use Andrmoel\AstronomyBundle\Location;
-use Andrmoel\AstronomyBundle\TimeOfInterest;
-use Andrmoel\AstronomyBundle\Utils\AngleUtil;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Planets\Earth;
+use OpenCompany\AstronomyBundle\Calculations\EarthCalc;
+use OpenCompany\AstronomyBundle\Calculations\SunCalc;
+use OpenCompany\AstronomyBundle\Coordinates\GeocentricEclipticalSphericalCoordinates;
+use OpenCompany\AstronomyBundle\Coordinates\GeocentricEquatorialRectangularCoordinates;
+use OpenCompany\AstronomyBundle\Coordinates\GeocentricEquatorialSphericalCoordinates;
+use OpenCompany\AstronomyBundle\Coordinates\LocalHorizontalCoordinates;
+use OpenCompany\AstronomyBundle\Corrections\LocalHorizontalCorrections;
+use OpenCompany\AstronomyBundle\Events\RiseSetTransit\RiseSetTransit;
+use OpenCompany\AstronomyBundle\Location;
+use OpenCompany\AstronomyBundle\TimeOfInterest;
+use OpenCompany\AstronomyBundle\Utils\AngleUtil;
 
 class Sun extends AstronomicalObject implements AstronomicalObjectInterface
 {

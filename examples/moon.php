@@ -2,9 +2,9 @@
 
 include __DIR__ . '/../vendor/autoload.php';
 
-use Andrmoel\AstronomyBundle\AstronomicalObjects\Moon;
-use Andrmoel\AstronomyBundle\Location;
-use Andrmoel\AstronomyBundle\Utils\AngleUtil;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\Moon;
+use OpenCompany\AstronomyBundle\Location;
+use OpenCompany\AstronomyBundle\Utils\AngleUtil;
 
 date_default_timezone_set('UTC');
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Parsers;
+namespace OpenCompany\AstronomyBundle\Parsers;
 
 class VSOP87Parser extends AbstractParser
 {

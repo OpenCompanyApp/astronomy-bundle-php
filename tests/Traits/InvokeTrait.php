@@ -1,6 +1,6 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Tests\Traits;
+namespace OpenCompany\AstronomyBundle\Tests\Traits;
 
 trait InvokeTrait
 {

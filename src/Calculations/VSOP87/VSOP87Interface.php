@@ -1,6 +1,6 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Calculations\VSOP87;
+namespace OpenCompany\AstronomyBundle\Calculations\VSOP87;
 
 interface VSOP87Interface
 {

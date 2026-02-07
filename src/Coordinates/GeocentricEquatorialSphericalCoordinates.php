@@ -1,11 +1,11 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Coordinates;
+namespace OpenCompany\AstronomyBundle\Coordinates;
 
-use Andrmoel\AstronomyBundle\Calculations\CoordinateTransformations;
-use Andrmoel\AstronomyBundle\Calculations\TimeCalc;
-use Andrmoel\AstronomyBundle\Location;
-use Andrmoel\AstronomyBundle\Utils\AngleUtil;
+use OpenCompany\AstronomyBundle\Calculations\CoordinateTransformations;
+use OpenCompany\AstronomyBundle\Calculations\TimeCalc;
+use OpenCompany\AstronomyBundle\Location;
+use OpenCompany\AstronomyBundle\Utils\AngleUtil;
 
 class GeocentricEquatorialSphericalCoordinates extends AbstractEquatorialSphericalCoordinates
 {

@@ -1,26 +1,26 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\AstronomicalObjects\Planets;
+namespace OpenCompany\AstronomyBundle\AstronomicalObjects\Planets;
 
-use Andrmoel\AstronomyBundle\AstronomicalObjects\AstronomicalObject;
-use Andrmoel\AstronomyBundle\Calculations\TimeCalc;
-use Andrmoel\AstronomyBundle\Calculations\VSOP87\EarthRectangularVSOP87;
-use Andrmoel\AstronomyBundle\Calculations\VSOP87\VSOP87Interface;
-use Andrmoel\AstronomyBundle\Calculations\VSOP87Calc;
-use Andrmoel\AstronomyBundle\Coordinates\GeocentricEclipticalRectangularCoordinates;
-use Andrmoel\AstronomyBundle\Coordinates\GeocentricEclipticalSphericalCoordinates;
-use Andrmoel\AstronomyBundle\Coordinates\GeocentricEquatorialRectangularCoordinates;
-use Andrmoel\AstronomyBundle\Coordinates\GeocentricEquatorialSphericalCoordinates;
-use Andrmoel\AstronomyBundle\Coordinates\HeliocentricEclipticalRectangularCoordinates;
-use Andrmoel\AstronomyBundle\Coordinates\HeliocentricEclipticalSphericalCoordinates;
-use Andrmoel\AstronomyBundle\Coordinates\LocalHorizontalCoordinates;
-use Andrmoel\AstronomyBundle\Corrections\GeocentricEclipticalSphericalCorrections;
-use Andrmoel\AstronomyBundle\Corrections\LocalHorizontalCorrections;
-use Andrmoel\AstronomyBundle\Events\RiseSetTransit\RiseSetTransit;
-use Andrmoel\AstronomyBundle\Location;
-use Andrmoel\AstronomyBundle\TimeOfInterest;
-use Andrmoel\AstronomyBundle\Utils\AngleUtil;
-use Andrmoel\AstronomyBundle\Utils\DistanceUtil;
+use OpenCompany\AstronomyBundle\AstronomicalObjects\AstronomicalObject;
+use OpenCompany\AstronomyBundle\Calculations\TimeCalc;
+use OpenCompany\AstronomyBundle\Calculations\VSOP87\EarthRectangularVSOP87;
+use OpenCompany\AstronomyBundle\Calculations\VSOP87\VSOP87Interface;
+use OpenCompany\AstronomyBundle\Calculations\VSOP87Calc;
+use OpenCompany\AstronomyBundle\Coordinates\GeocentricEclipticalRectangularCoordinates;
+use OpenCompany\AstronomyBundle\Coordinates\GeocentricEclipticalSphericalCoordinates;
+use OpenCompany\AstronomyBundle\Coordinates\GeocentricEquatorialRectangularCoordinates;
+use OpenCompany\AstronomyBundle\Coordinates\GeocentricEquatorialSphericalCoordinates;
+use OpenCompany\AstronomyBundle\Coordinates\HeliocentricEclipticalRectangularCoordinates;
+use OpenCompany\AstronomyBundle\Coordinates\HeliocentricEclipticalSphericalCoordinates;
+use OpenCompany\AstronomyBundle\Coordinates\LocalHorizontalCoordinates;
+use OpenCompany\AstronomyBundle\Corrections\GeocentricEclipticalSphericalCorrections;
+use OpenCompany\AstronomyBundle\Corrections\LocalHorizontalCorrections;
+use OpenCompany\AstronomyBundle\Events\RiseSetTransit\RiseSetTransit;
+use OpenCompany\AstronomyBundle\Location;
+use OpenCompany\AstronomyBundle\TimeOfInterest;
+use OpenCompany\AstronomyBundle\Utils\AngleUtil;
+use OpenCompany\AstronomyBundle\Utils\DistanceUtil;
 
 abstract class Planet extends AstronomicalObject implements PlanetInterface
 {

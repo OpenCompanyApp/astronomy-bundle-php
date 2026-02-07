@@ -1,8 +1,8 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Tests\Calculations;
+namespace OpenCompany\AstronomyBundle\Tests\Calculations;
 
-use Andrmoel\AstronomyBundle\Calculations\CoordinateTransformations;
+use OpenCompany\AstronomyBundle\Calculations\CoordinateTransformations;
 use PHPUnit\Framework\TestCase;
 
 class CoordinateTransformationsTest extends TestCase

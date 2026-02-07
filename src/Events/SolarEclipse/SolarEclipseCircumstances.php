@@ -1,9 +1,9 @@
 <?php
 
-namespace Andrmoel\AstronomyBundle\Events\SolarEclipse;
+namespace OpenCompany\AstronomyBundle\Events\SolarEclipse;
 
-use Andrmoel\AstronomyBundle\Coordinates\LocalHorizontalCoordinates;
-use Andrmoel\AstronomyBundle\Corrections\LocalHorizontalCorrections;
+use OpenCompany\AstronomyBundle\Coordinates\LocalHorizontalCoordinates;
+use OpenCompany\AstronomyBundle\Corrections\LocalHorizontalCorrections;
 
 class SolarEclipseCircumstances
 {
