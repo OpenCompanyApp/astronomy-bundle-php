@@ -1,12 +1,20 @@
 # Astronomy Bundle PHP
 
-> **Fork of [andrmoel/astronomy-bundle-php](https://github.com/andrmoel/astronomy-bundle-php)** — actively maintained by [OpenCompanyApp](https://github.com/OpenCompanyApp). Used in production by [OpenCompany](https://github.com/OpenCompanyApp) for AI agent astronomical capabilities.
+> Maintained by [OpenCompany](https://github.com/OpenCompanyApp) — the AI-powered workspace where teams and AI agents collaborate. Fork of [andrmoel/astronomy-bundle-php](https://github.com/andrmoel/astronomy-bundle-php).
 
-A PHP library for astronomical calculations. Calculate positions of the Moon, Sun, and planets, sunrise/sunset times, moon phases, solar eclipses, coordinate transformations, and more.
+A PHP library for astronomical calculations. Calculate positions of the Moon, Sun, and planets, sunrise/sunset times, moon phases, solar and lunar eclipses, coordinate transformations, and more.
 
 Based on Jean Meeus' *Astronomical Algorithms* and the VSOP87 theory.
 
 **[Full Documentation](docs.md)**
+
+## About OpenCompany
+
+[OpenCompany](https://github.com/OpenCompanyApp) is an AI-powered workplace platform where teams deploy and coordinate multiple AI agents alongside human collaborators. It combines team messaging, document collaboration, task management, and intelligent automation in a single workspace — with built-in approval workflows and granular permission controls so organizations can adopt AI agents safely and transparently.
+
+This astronomy library powers the **Celestial** tool in OpenCompany's agent toolbox, giving AI agents the ability to perform real-time astronomical calculations — moon phases, sunrise/sunset times, planet positions, eclipse predictions, and night sky reports. It's one example of how OpenCompany agents can be extended with specialized capabilities beyond standard LLM knowledge.
+
+OpenCompany is built with Laravel, Vue 3, and Inertia.js. Learn more at [github.com/OpenCompanyApp](https://github.com/OpenCompanyApp).
 
 ## Changes from upstream
 
@@ -111,4 +119,4 @@ MIT — see [LICENSE](LICENSE)
 
 ## Credits
 
-Original library by [Andreas Möller](https://github.com/andrmoel). OpenCompany namespace, PHP 8.4+ compatibility, moonrise/moonset, and lunar eclipses by [OpenCompanyApp](https://github.com/OpenCompanyApp).
+Original library by [Andreas Möller](https://github.com/andrmoel). OpenCompany namespace, PHP 8.4+ compatibility, moonrise/moonset, and lunar eclipses by the [OpenCompany](https://github.com/OpenCompanyApp) team — building the future of AI-powered workplaces.

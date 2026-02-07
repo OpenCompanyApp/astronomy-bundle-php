@@ -1,13 +1,18 @@
 {
     "name": "opencompanyapp/astronomy-bundle",
-    "description": "Bundle for astronomical calculations such as position of moon, sun and planets, sunrise, sunset or solar eclipses. Most of the calculations are based on Jean Meeus 'Astronomical Algorithms' book and the VSOP87 theory.",
+    "description": "PHP library for astronomical calculations — moon phases, sunrise/sunset, planet positions, solar and lunar eclipses, coordinate transformations. Maintained by OpenCompany for AI agent capabilities. Based on Jean Meeus' Astronomical Algorithms and VSOP87 theory.",
     "license": "MIT",
     "authors": [
         {
             "name": "Andreas Moeller",
             "email": "andrmoel@gmail.com"
+        },
+        {
+            "name": "OpenCompany",
+            "homepage": "https://github.com/OpenCompanyApp"
         }
     ],
+    "keywords": ["astronomy", "celestial", "moon", "sun", "planets", "eclipse", "coordinates", "opencompany"],
     "require": {
         "php": "^7.2 || ^8.0",
         "ext-json": "*"
