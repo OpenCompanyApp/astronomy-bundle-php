@@ -10,6 +10,8 @@ Based on Jean Meeus' *Astronomical Algorithms* and the VSOP87 theory.
 
 - **Actively maintained** — this fork is used in production and will receive ongoing updates
 - **PHP 8.4/8.5 compatibility**: Fixed all implicit nullable parameter deprecations (18 fixes across 15 files)
+- **Moonrise & moonset**: Implemented using the existing RiseSetTransit framework with lunar parallax correction
+- **Lunar eclipses**: Full algorithmic implementation based on Meeus Chapter 54 — type detection (total/partial/penumbral), magnitude, gamma, contact times (P1–P4, U1–U4), and semi-durations
 - Requires `php ^7.2 || ^8.0` (works on PHP 8.0–8.5+)
 
 ## Installation
@@ -28,12 +30,12 @@ composer require opencompanyapp/astronomy-bundle
 | Moon position (ecliptical, equatorial, horizontal) | Done |
 | Moon illumination, phase & bright limb angle | Done |
 | Moon distance to Earth | Done |
-| Moonrise & moonset | Not yet implemented |
+| Moonrise & moonset | Done |
 | All 7 planets (Mercury–Neptune) | Done |
 | Planet rise, set & culmination | Done |
 | Heliocentric & geocentric positions (VSOP87) | Done |
 | Solar eclipses (type, contacts, obscuration, magnitude) | Done |
-| Lunar eclipses | Not yet implemented |
+| Lunar eclipses (type, magnitude, contacts, semi-durations) | Done |
 | Coordinate transformations (7 systems) | Done |
 | Julian Day, sidereal time, equation of time | Done |
 | Atmospheric refraction correction | Done |
@@ -139,6 +141,51 @@ $eclipse->getMoonSunRatio();       // apparent size ratio
 $c1 = $eclipse->getCircumstancesC1();
 $max = $eclipse->getCircumstancesMax();
 $toiMax = $eclipse->getTimeOfInterest($max);
+```
+
+## Moonrise & moonset
+
+```php
+$toi = TimeOfInterest::createFromString('2024-06-15 00:00:00');
+$location = Location::create(52.524, 13.411);
+
+$moon = Moon::create($toi);
+$moonrise = $moon->getMoonrise($location);
+$moonset = $moon->getMoonset($location);
+$transit = $moon->getUpperCulmination($location);
+
+// Returns null if the moon doesn't rise/set at the given location and date
+echo "Moonrise: " . $moonrise->getDateTime()->format('H:i') . " UTC";
+```
+
+## Lunar eclipses
+
+Calculate circumstances for any lunar eclipse. Unlike solar eclipses, lunar eclipses are global events — the type, magnitude, and timing are the same for all observers.
+
+```php
+use Andrmoel\AstronomyBundle\Events\LunarEclipse\LunarEclipse;
+
+$toi = TimeOfInterest::createFromString('2019-01-21');
+$eclipse = LunarEclipse::create($toi);
+
+$eclipse->getEclipseType();          // "total", "partial", "penumbral", "none"
+$eclipse->getUmbralMagnitude();      // umbral eclipse magnitude
+$eclipse->getPenumbralMagnitude();   // penumbral eclipse magnitude
+$eclipse->getGamma();               // closest approach to shadow axis
+$eclipse->getGreatestEclipseTOI();  // TimeOfInterest of greatest eclipse
+
+// Semi-durations (in minutes)
+$eclipse->getSemiDurationPenumbral(); // penumbral phase
+$eclipse->getSemiDurationPartial();   // partial (umbral) phase, null if penumbral
+$eclipse->getSemiDurationTotal();     // total phase, null if not total
+
+// Contact times (P1, U1, U2, greatest, U3, U4, P4)
+$p1 = $eclipse->getContactP1();  // penumbra first contact
+$u1 = $eclipse->getContactU1();  // umbra first contact
+$u2 = $eclipse->getContactU2();  // totality begins
+$u3 = $eclipse->getContactU3();  // totality ends
+$u4 = $eclipse->getContactU4();  // umbra last contact
+$p4 = $eclipse->getContactP4();  // penumbra last contact
 ```
 
 ## License

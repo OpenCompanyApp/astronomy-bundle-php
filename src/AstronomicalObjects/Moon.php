@@ -12,6 +12,7 @@ use Andrmoel\AstronomyBundle\Coordinates\LocalHorizontalCoordinates;
 use Andrmoel\AstronomyBundle\Corrections\LocalHorizontalCorrections;
 use Andrmoel\AstronomyBundle\Location;
 use Andrmoel\AstronomyBundle\TimeOfInterest;
+use Andrmoel\AstronomyBundle\Events\RiseSetTransit\RiseSetTransit;
 use Andrmoel\AstronomyBundle\Utils\AngleUtil;
 use Andrmoel\AstronomyBundle\Utils\DistanceUtil;
 
@@ -152,36 +153,21 @@ class Moon extends AstronomicalObject implements AstronomicalObjectInterface
         return $x;
     }
 
-    /**
-     * @param Location $location
-     * @return TimeOfInterest
-     * @deprecated Not yet implemented
-     */
     public function getUpperCulmination(Location $location): TimeOfInterest
     {
-        // TODO Implement
-        return TimeOfInterest::createFromCurrentTime();
+        $ras = new RiseSetTransit(Moon::class, $location, $this->toi);
+        return $ras->getTransit();
     }
 
-    /**
-     * @param Location $location
-     * @return TimeOfInterest
-     * @deprecated Not yet implemented
-     */
-    public function getMoonrise(Location $location): TimeOfInterest
+    public function getMoonrise(Location $location): ?TimeOfInterest
     {
-        // TODO Implement
-        return TimeOfInterest::createFromCurrentTime();
+        $ras = new RiseSetTransit(Moon::class, $location, $this->toi);
+        return $ras->getRise();
     }
 
-    /**
-     * @param Location $location
-     * @return TimeOfInterest
-     * @deprecated Not yet implemented
-     */
-    public function getMoonset(Location $location): TimeOfInterest
+    public function getMoonset(Location $location): ?TimeOfInterest
     {
-        // TODO Implement
-        return TimeOfInterest::createFromCurrentTime();
+        $ras = new RiseSetTransit(Moon::class, $location, $this->toi);
+        return $ras->getSet();
     }
 }
