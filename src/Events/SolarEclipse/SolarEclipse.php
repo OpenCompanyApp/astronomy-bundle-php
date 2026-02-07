@@ -82,9 +82,6 @@ class SolarEclipse
     public function setLocation(Location $location): void
     {
         $this->location = $location;
-
-        $this->lat = $location->getLatitude();
-        $this->lon = $location->getLongitude();
     }
 
     public function getLocationOfGreatestEclipse(): Location
