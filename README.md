@@ -1,6 +1,6 @@
 # Astronomy Bundle PHP
 
-> **Fork of [andrmoel/astronomy-bundle-php](https://github.com/andrmoel/astronomy-bundle-php)** maintained by [OpenCompanySo](https://github.com/OpenCompanySo) with PHP 8.4+ compatibility fixes.
+> **Fork of [andrmoel/astronomy-bundle-php](https://github.com/andrmoel/astronomy-bundle-php)** maintained by [OpenCompanyApp](https://github.com/OpenCompanyApp) with PHP 8.4+ compatibility fixes.
 
 A PHP library for astronomical calculations. Calculate positions of the Moon, Sun, and planets, sunrise/sunset times, moon phases, solar eclipses, coordinate transformations, and more.
 
@@ -14,7 +14,7 @@ Based on Jean Meeus' *Astronomical Algorithms* and the VSOP87 theory.
 ## Installation
 
 ```console
-composer require opencompanyso/astronomy-bundle
+composer require opencompanyapp/astronomy-bundle
 ```
 
 ## Features
@@ -146,4 +146,4 @@ MIT — see [LICENSE](LICENSE)
 
 ## Credits
 
-Original library by [Andreas Möller](https://github.com/andrmoel). PHP 8.4+ compatibility by [OpenCompanySo](https://github.com/OpenCompanySo).
+Original library by [Andreas Möller](https://github.com/andrmoel). PHP 8.4+ compatibility by [OpenCompanyApp](https://github.com/OpenCompanyApp).
