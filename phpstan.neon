@@ -1,0 +1,6 @@
+parameters:
+    paths:
+        - src/
+    # Level 0 — this is a 87K-line astronomy math library (VSOP87, Meeus algorithms)
+    # that exhausts PHPStan memory at higher levels due to massive coefficient arrays.
+    level: 0
